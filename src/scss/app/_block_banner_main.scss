@@ -1,0 +1,29 @@
+.block-banner-main {
+    height: 650px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        height: 250px;
+        background-attachment: initial;
+    }
+
+    @include respond-to($phone-tablet) {
+        height: 250px;
+        background-attachment: initial;
+    }
+
+    @include respond-to($tablet-medium) {
+        height: 250px;
+        background-attachment: initial;
+    }
+
+    @include respond-to($medium-large) {
+        height: 250px;
+        background-attachment: initial;
+    }
+}

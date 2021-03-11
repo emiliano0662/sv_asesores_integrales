@@ -1,0 +1,286 @@
+header {
+
+    .block-header-top {
+        padding: 12px 0px;
+        border-bottom: 10px solid #193a6a;
+        background-color: #5c6768;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            padding: 8px 0px;
+        }
+
+        @include respond-to($phone-tablet) {
+            padding: 8px 0px;
+        }
+
+        @include respond-to($tablet-medium) {
+            padding: 8px 0px;
+        }
+
+        @include respond-to($medium-large) {
+            padding: 8px 0px;
+        }
+
+        ul {
+            margin: 0px;
+            padding-left: 0px;
+            list-style: none;
+
+            li {
+                margin-bottom: 8px;
+                text-align: center;
+
+                // Breakpoints
+                @include respond-to($phone) {
+                    margin-bottom: 0;
+                    text-align: left;
+                }
+
+                @include respond-to($phone-tablet) {
+                    margin-bottom: 0;
+                    text-align: left;
+                }
+
+                @include respond-to($tablet-medium) {
+                    margin-bottom: 0;
+                    text-align: left;
+                }
+
+                @include respond-to($medium-large) {
+                    margin-bottom: 0;
+                    text-align: left;
+                }
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+
+                .img-fluid {
+                    margin-right: 15px;
+
+                    // Breakpoints
+                    @include respond-to($phone) {
+                        display: none;
+                    }
+
+                    @include respond-to($phone-tablet) {
+                        display: none;
+                    }
+
+                    @include respond-to($tablet-medium) {
+                        display: none;
+                    }
+
+                    @include respond-to($medium-large) {
+                        display: none;
+                    }
+                }
+
+                a {
+                    text-transform: uppercase;
+                    letter-spacing: 0;
+                    line-height: 20px;
+                    font-weight: 300;
+                    font-size: 16px;
+                    color: #FFFFFF;
+
+                    // Breakpoints
+                    @include respond-to($phone) {
+                        line-height: 16px;
+                        font-size: 12px;
+                    }
+
+                    @include respond-to($phone-tablet) {
+                        line-height: 16px;
+                        font-size: 12px;
+                    }
+
+                    @include respond-to($tablet-medium) {
+                        line-height: 16px;
+                        font-size: 12px;
+                    }
+
+                    @include respond-to($medium-large) {
+                        line-height: 16px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        label {
+            letter-spacing: 0;
+            line-height: 30px;
+            font-weight: 300;
+            font-size: 25px;
+            color: #FFFFFF;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                line-height: 20px;
+                font-size: 16px;
+            }
+
+            @include respond-to($phone-tablet) {
+                line-height: 20px;
+                font-size: 16px;
+            }
+
+            @include respond-to($tablet-medium) {
+                line-height: 20px;
+                font-size: 16px;
+            }
+
+            @include respond-to($medium-large) {
+                line-height: 20px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .block-header-main {
+        padding: 100px 0px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            padding: 12px 0px;
+        }
+
+        @include respond-to($phone-tablet) {
+            padding: 12px 0px;
+        }
+
+        @include respond-to($tablet-medium) {
+            padding: 12px 0px;
+        }
+
+        @include respond-to($medium-large) {
+            padding: 12px 0px;
+        }
+
+        .navbar {
+            padding: 0px;
+            background-color: #FFFFFF !important;
+
+            .navbar-brand {
+                padding: 0px;
+
+                .img-fluid {
+                    max-width: 350px;
+
+                    // Breakpoints
+                    @include respond-to($phone) {
+                        max-width: 200px;
+                    }
+
+                    @include respond-to($phone-tablet) {
+                        max-width: 200px;
+                    }
+
+                    @include respond-to($tablet-medium) {
+                        max-width: 200px;
+                    }
+
+                    @include respond-to($medium-large) {
+                        max-width: 200px;
+                    }
+                }
+            }
+
+            .navbar-toggler {
+                background-color: #193a6a;
+
+                .navbar-toggler-icon {
+                    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+                }
+            }
+
+            .navbar-collapse {
+
+                // Breakpoints
+                @include respond-to($phone) {
+                    padding-top: 10px;
+                }
+
+                @include respond-to($phone-tablet) {
+                    padding-top: 10px;
+                }
+
+                @include respond-to($tablet-medium) {
+                    padding-top: 10px;
+                }
+
+                @include respond-to($medium-large) {
+                    padding-top: 10px;
+                }
+
+                .navbar-nav {
+
+                    .nav-item {
+                        margin-right: 25px;
+
+                        // Breakpoints
+                        @include respond-to($phone) {
+                            margin-right: 0px;
+                        }
+
+                        @include respond-to($phone-tablet) {
+                            margin-right: 0px;
+                        }
+
+                        @include respond-to($tablet-medium) {
+                            margin-right: 0px;
+                        }
+
+                        @include respond-to($medium-large) {
+                            margin-right: 0px;
+                        }
+
+                        &:last-child {
+                            margin-right: 0px;
+                        }
+
+                        .nav-link {
+                            padding: 0px;
+                            letter-spacing: 0;
+                            line-height: 20px;
+                            font-weight: 300;
+                            font-size: 16px;
+                            color: #193a6a;
+
+                            // Breakpoints
+                            @include respond-to($phone) {
+                                padding: 5px 0px;
+                            }
+
+                            @include respond-to($phone-tablet) {
+                                padding: 5px 0px;
+                            }
+
+                            @include respond-to($tablet-medium) {
+                                padding: 5px 0px;
+                            }
+
+                            @include respond-to($medium-large) {
+                                padding: 5px 0px;
+                            }
+
+                            &:hover {
+                                text-decoration: underline !important;
+                            }
+
+                            &.active {
+                                font-weight: 700;
+
+                                &:hover {
+                                    text-decoration: none !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

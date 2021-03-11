@@ -1,0 +1,84 @@
+.block-about-us {
+    padding: 100px 0px 60px 0px;
+    background-color: #193a6a;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px;
+    }
+
+    h2 {
+        color: #FFFFFF;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    p {
+        margin-top: 60px;
+        text-transform: uppercase;
+        text-align: justify;
+        line-height: 40px;
+        font-size: 30px;
+        color: #FFFFFF;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-top: 40px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 25px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-top: 40px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 25px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-top: 40px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 25px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-top: 40px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 25px;
+        }
+    }
+}

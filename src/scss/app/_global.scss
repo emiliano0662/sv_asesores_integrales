@@ -1,0 +1,92 @@
+* {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+a {
+    text-decoration: none !important;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    outline: 0px;
+}
+
+html {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    background: #FFFFFF;
+}
+
+header,
+footer,
+section {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+/*Estilos generales*/
+
+/*Título*/
+h2 {
+    width: 100%;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 64px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #193a6a;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        line-height: 60px;
+        font-size: 45px;
+    }
+
+    @include respond-to($phone-tablet) {
+        line-height: 60px;
+        font-size: 45px;
+    }
+}
+
+/*Parrafos*/
+p {
+    width: 100%;
+    margin: 0px;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #193a6a;
+}
+
+/*Botones*/
+.btn-primary {
+    min-width: 188px;
+    padding: 20px 40px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 23px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #193a6a;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+
+    &:hover {
+        color: #FFFFFF;
+        background-color: #5c6768;
+    }
+}
