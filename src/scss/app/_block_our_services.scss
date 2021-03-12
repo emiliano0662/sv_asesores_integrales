@@ -1,0 +1,25 @@
+.block-our-services {
+    padding: 60px 0px;
+    border-bottom: 100px solid #193a6a;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        border-bottom: 10px solid #193a6a;
+    }
+
+    @include respond-to($phone-tablet) {
+        border-bottom: 10px solid #193a6a;
+    }
+
+    @include respond-to($tablet-medium) {
+        border-bottom: 10px solid #193a6a;
+    }
+
+    @include respond-to($medium-large) {
+        border-bottom: 10px solid #193a6a;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+}

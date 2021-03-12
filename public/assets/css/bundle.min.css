@@ -15997,14 +15997,26 @@ h2, .h2 {
   }
 }
 
+h3, .h3 {
+  width: 100%;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  line-height: 55px;
+  font-weight: 700;
+  font-size: 45px;
+  color: #193a6a;
+}
+
 /*Parrafos*/
 p {
   width: 100%;
   margin: 0px;
+  text-transform: uppercase;
   letter-spacing: 0;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   color: #193a6a;
 }
 
@@ -16443,4 +16455,32 @@ header .block-header-main .navbar .navbar-collapse .navbar-nav .nav-item .nav-li
     line-height: 35px;
     font-size: 25px;
   }
+}
+
+.block-our-services {
+  padding: 60px 0px;
+  border-bottom: 100px solid #193a6a;
+}
+@media only screen and (max-width: 479px) {
+  .block-our-services {
+    border-bottom: 10px solid #193a6a;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .block-our-services {
+    border-bottom: 10px solid #193a6a;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  .block-our-services {
+    border-bottom: 10px solid #193a6a;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  .block-our-services {
+    border-bottom: 10px solid #193a6a;
+  }
+}
+.block-our-services p {
+  margin-bottom: 30px;
 }
