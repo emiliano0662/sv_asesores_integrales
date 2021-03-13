@@ -1,0 +1,73 @@
+.block-values {
+    padding: 100px 0px 40px 0px;
+    background-color: #5c6768;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px 20px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px 20px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px 20px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px 20px 0px;
+    }
+
+    h2 {
+        margin-bottom: 100px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 40px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 40px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 40px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 40px;
+        }
+    }
+
+    h4 {
+        margin-bottom: 60px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 40px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 40px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 40px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .container-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+        background-color: transparent;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}

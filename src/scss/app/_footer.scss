@@ -1,1 +1,21 @@
-footer {}
+footer {
+    padding: 100px 0px;
+    background-color: #193a6a;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px;
+    }
+}

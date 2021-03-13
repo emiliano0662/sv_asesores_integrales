@@ -1,0 +1,84 @@
+.block-vision-mission {
+
+    .container-text {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #FFFFFF;
+
+        // Breakpoints
+        @include respond-to($large-extra) {
+            padding: 80px 30px 100px 60px;
+        }
+
+        @include respond-to($extra-full) {
+            padding: 80px 30px 100px 60px;
+        }
+
+        @include respond-to($full) {
+            padding: 80px 30px 100px 60px;
+        }
+
+        h2 {
+            margin-bottom: 40px;
+            color: #193a6a;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($medium-large) {
+                margin-bottom: 30px;
+            }
+        }
+
+        p {
+            color: #193a6a;
+
+            // Breakpoints
+            @include respond-to($large-extra) {
+                text-align: justify;
+            }
+
+            @include respond-to($extra-full) {
+                text-align: justify;
+            }
+
+            @include respond-to($full) {
+                text-align: justify;
+            }
+        }
+    }
+
+    .container-image {
+        background-color: #FFFFFF;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            height: 250px;
+        }
+
+        @include respond-to($phone-tablet) {
+            height: 250px;
+        }
+
+        @include respond-to($tablet-medium) {
+            height: 250px;
+        }
+
+        @include respond-to($medium-large) {
+            height: 250px;
+        }
+    }
+}

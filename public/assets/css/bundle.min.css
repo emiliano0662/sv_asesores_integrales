@@ -16008,6 +16008,17 @@ h3, .h3 {
   color: #193a6a;
 }
 
+h4, .h4 {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #193a6a;
+}
+
 /*Parrafos*/
 p {
   width: 100%;
@@ -16332,6 +16343,31 @@ header .block-header-main .navbar .navbar-collapse .navbar-nav .nav-item .nav-li
   text-decoration: none !important;
 }
 
+footer {
+  padding: 100px 0px;
+  background-color: #193a6a;
+}
+@media only screen and (max-width: 479px) {
+  footer {
+    padding: 60px 0px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  footer {
+    padding: 60px 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  footer {
+    padding: 60px 0px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  footer {
+    padding: 60px 0px;
+  }
+}
+
 .block-banner-main {
   height: 650px;
   background-color: #FFFFFF;
@@ -16483,4 +16519,173 @@ header .block-header-main .navbar .navbar-collapse .navbar-nav .nav-item .nav-li
 }
 .block-our-services p {
   margin-bottom: 30px;
+}
+
+.block-vision-mission .container-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #FFFFFF;
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .block-vision-mission .container-text {
+    padding: 80px 30px 100px 60px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .block-vision-mission .container-text {
+    padding: 80px 30px 100px 60px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .block-vision-mission .container-text {
+    padding: 80px 30px 100px 60px;
+  }
+}
+.block-vision-mission .container-text h2, .block-vision-mission .container-text .h2 {
+  margin-bottom: 40px;
+  color: #193a6a;
+}
+@media only screen and (max-width: 479px) {
+  .block-vision-mission .container-text h2, .block-vision-mission .container-text .h2 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .block-vision-mission .container-text h2, .block-vision-mission .container-text .h2 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  .block-vision-mission .container-text h2, .block-vision-mission .container-text .h2 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  .block-vision-mission .container-text h2, .block-vision-mission .container-text .h2 {
+    margin-bottom: 30px;
+  }
+}
+.block-vision-mission .container-text p {
+  color: #193a6a;
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .block-vision-mission .container-text p {
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .block-vision-mission .container-text p {
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .block-vision-mission .container-text p {
+    text-align: justify;
+  }
+}
+.block-vision-mission .container-image {
+  background-color: #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media only screen and (max-width: 479px) {
+  .block-vision-mission .container-image {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .block-vision-mission .container-image {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  .block-vision-mission .container-image {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  .block-vision-mission .container-image {
+    height: 250px;
+  }
+}
+
+.block-values {
+  padding: 100px 0px 40px 0px;
+  background-color: #5c6768;
+}
+@media only screen and (max-width: 479px) {
+  .block-values {
+    padding: 60px 0px 20px 0px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .block-values {
+    padding: 60px 0px 20px 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  .block-values {
+    padding: 60px 0px 20px 0px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  .block-values {
+    padding: 60px 0px 20px 0px;
+  }
+}
+.block-values h2, .block-values .h2 {
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 479px) {
+  .block-values h2, .block-values .h2 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .block-values h2, .block-values .h2 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  .block-values h2, .block-values .h2 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  .block-values h2, .block-values .h2 {
+    margin-bottom: 40px;
+  }
+}
+.block-values h4, .block-values .h4 {
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 479px) {
+  .block-values h4, .block-values .h4 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .block-values h4, .block-values .h4 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  .block-values h4, .block-values .h4 {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  .block-values h4, .block-values .h4 {
+    margin-bottom: 40px;
+  }
+}
+.block-values .container-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
