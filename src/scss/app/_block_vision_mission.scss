@@ -3,7 +3,7 @@
     .container-text {
         padding-top: 60px;
         padding-bottom: 60px;
-        background-color: #FFFFFF;
+        background-color: $color-five;
 
         // Breakpoints
         @include respond-to($large-extra) {
@@ -20,7 +20,7 @@
 
         h2 {
             margin-bottom: 40px;
-            color: #193a6a;
+            color: $color-four;
 
             // Breakpoints
             @include respond-to($phone) {
@@ -41,7 +41,7 @@
         }
 
         p {
-            color: #193a6a;
+            color: $color-four;
 
             // Breakpoints
             @include respond-to($large-extra) {
@@ -79,6 +79,21 @@
 
         @include respond-to($medium-large) {
             height: 250px;
+        }
+    }
+
+    &.bg-blue {
+
+        .container-text {
+            background-color: $color-four;
+
+            h2 {
+                color: $color-five;
+            }
+
+            p {
+                color: $color-five;
+            }
         }
     }
 }

@@ -2,8 +2,8 @@ header {
 
     .block-header-top {
         padding: 12px 0px;
-        border-bottom: 10px solid #193a6a;
-        background-color: #5c6768;
+        border-bottom: 10px solid $color-four;
+        background-color: $color-five;
 
         // Breakpoints
         @include respond-to($phone) {
@@ -189,7 +189,7 @@ header {
             }
 
             .navbar-toggler {
-                background-color: #193a6a;
+                background-color: $color-four;
 
                 .navbar-toggler-icon {
                     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -247,7 +247,7 @@ header {
                             line-height: 20px;
                             font-weight: 300;
                             font-size: 16px;
-                            color: #193a6a;
+                            color: $color-four;
 
                             // Breakpoints
                             @include respond-to($phone) {

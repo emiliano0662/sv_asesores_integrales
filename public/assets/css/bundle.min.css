@@ -16043,7 +16043,7 @@ p {
   font-weight: 700;
   font-size: 18px;
   color: #193a6a;
-  background-color: #FFFFFF;
+  background-color: #5c6768;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -16344,27 +16344,67 @@ header .block-header-main .navbar .navbar-collapse .navbar-nav .nav-item .nav-li
 }
 
 footer {
-  padding: 100px 0px;
-  background-color: #193a6a;
+  padding: 250px 0px 150px 0px;
+  background-color: #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 @media only screen and (max-width: 479px) {
   footer {
-    padding: 60px 0px;
+    padding: 60px 0px 0px 0px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   footer {
-    padding: 60px 0px;
+    padding: 60px 0px 0px 0px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 849px) {
   footer {
-    padding: 60px 0px;
+    padding: 60px 0px 0px 0px;
   }
 }
 @media only screen and (min-width: 850px) and (max-width: 990px) {
   footer {
-    padding: 60px 0px;
+    padding: 60px 0px 0px 0px;
+  }
+}
+footer .container {
+  max-width: 1000px;
+}
+footer a {
+  margin-bottom: 50px;
+}
+footer h4, footer .h4 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  line-height: 40px;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 479px) {
+  footer h4, footer .h4 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  footer h4, footer .h4 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  footer h4, footer .h4 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  footer h4, footer .h4 {
+    margin-top: 0px;
+    margin-bottom: 60px;
   }
 }
 
@@ -16426,7 +16466,7 @@ footer {
   }
 }
 .block-about-us h2, .block-about-us .h2 {
-  color: #FFFFFF;
+  color: #5c6768;
 }
 @media only screen and (max-width: 479px) {
   .block-about-us h2, .block-about-us .h2 {
@@ -16458,7 +16498,7 @@ footer {
   text-align: justify;
   line-height: 40px;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #5c6768;
 }
 @media only screen and (max-width: 479px) {
   .block-about-us p {
@@ -16496,6 +16536,7 @@ footer {
 .block-our-services {
   padding: 60px 0px;
   border-bottom: 100px solid #193a6a;
+  background-color: #5c6768;
 }
 @media only screen and (max-width: 479px) {
   .block-our-services {
@@ -16524,7 +16565,7 @@ footer {
 .block-vision-mission .container-text {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #FFFFFF;
+  background-color: #5c6768;
 }
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
   .block-vision-mission .container-text {
@@ -16608,6 +16649,15 @@ footer {
   .block-vision-mission .container-image {
     height: 250px;
   }
+}
+.block-vision-mission.bg-blue .container-text {
+  background-color: #193a6a;
+}
+.block-vision-mission.bg-blue .container-text h2, .block-vision-mission.bg-blue .container-text .h2 {
+  color: #5c6768;
+}
+.block-vision-mission.bg-blue .container-text p {
+  color: #5c6768;
 }
 
 .block-values {

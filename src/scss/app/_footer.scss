@@ -1,21 +1,61 @@
 footer {
-    padding: 100px 0px;
-    background-color: #193a6a;
+    padding: 250px 0px 150px 0px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
     // Breakpoints
     @include respond-to($phone) {
-        padding: 60px 0px;
+        padding: 60px 0px 0px 0px;
     }
 
     @include respond-to($phone-tablet) {
-        padding: 60px 0px;
+        padding: 60px 0px 0px 0px;
     }
 
     @include respond-to($tablet-medium) {
-        padding: 60px 0px;
+        padding: 60px 0px 0px 0px;
     }
 
     @include respond-to($medium-large) {
-        padding: 60px 0px;
+        padding: 60px 0px 0px 0px;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+    a {
+        margin-bottom: 50px;
+    }
+
+    h4 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        line-height: 40px;
+        font-size: 30px;
+        color: #FFFFFF;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-top: 0px;
+            margin-bottom: 60px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-top: 0px;
+            margin-bottom: 60px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-top: 0px;
+            margin-bottom: 60px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-top: 0px;
+            margin-bottom: 60px;
+        }
     }
 }

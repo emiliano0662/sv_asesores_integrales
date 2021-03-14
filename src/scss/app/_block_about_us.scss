@@ -1,6 +1,6 @@
 .block-about-us {
     padding: 100px 0px 60px 0px;
-    background-color: #193a6a;
+    background-color: $color-four;
 
     // Breakpoints
     @include respond-to($phone) {
@@ -20,7 +20,7 @@
     }
 
     h2 {
-        color: #FFFFFF;
+        color: $color-five;
 
         // Breakpoints
         @include respond-to($phone) {
@@ -50,7 +50,7 @@
         text-align: justify;
         line-height: 40px;
         font-size: 30px;
-        color: #FFFFFF;
+        color: $color-five;
 
         // Breakpoints
         @include respond-to($phone) {
